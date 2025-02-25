@@ -1,0 +1,20 @@
+# Ignore Python virtual environment
+genenv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore PyInstaller build folders
+build/
+dist/
+*.spec
+
+# Ignore env
+*.env
+#Ignore file
+*.ipynb
