@@ -82,5 +82,11 @@ if st.sidebar.button("Get Answer"):
             st.success("Answer...")
             st.subheader("Your questions...")
             st.write(user_questions)
+            st.subheader("Answer Generated...")
+            for answer in response["output_text"].split("\n"):
+                if answer.strip():
+                    st.write(answer)
         except Exception as issue:
             st.error(issue)
+    else:
+        st.warning("Please provide url or api_key or questions...")
