@@ -1,2 +1,16 @@
 # Create env 
 "python -m venv genenv"
+
+## Important imorts
+Streamlit (st) → Web app framework.
+WebBaseLoader → Loads web page content for processing.
+BeautifulSoup (bs4) → Parses HTML.
+RecursiveCharacterTextSplitter → Splits text into smaller chunks.
+GoogleGenerativeAIEmbedding → Converts text into embeddings.
+ChatGoogleGenerativeAI → Chatbot model from Google Generative AI.
+FAISS → Vector storage for efficient similarity search.
+load_qa_chain → Handles question-answering tasks.
+PromptTemplate → Creates structured prompts for AI models.
+os → Handles system interactions.
+
+## 
